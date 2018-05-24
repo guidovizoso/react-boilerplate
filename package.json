@@ -1,0 +1,42 @@
+{
+  "name": "react-boilerplate",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --config webpack.prod.js --mode production",
+    "dev": "webpack-dev-server --open --config webpack.dev.js --mode development",
+    "test": "jest"
+  },
+  "keywords": [
+    "react",
+    "boilerplate",
+    "babel",
+    "webpack"
+  ],
+  "author": "Guido Vizoso",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.4",
+    "webpack-dev-server": "^3.1.4",
+    "webpack-merge": "^4.1.2"
+  },
+  "dependencies": {
+    "eslint": "^4.19.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "react",
+      "stage-0"
+    ]
+  }
+}
