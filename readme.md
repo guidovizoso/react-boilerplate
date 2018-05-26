@@ -25,6 +25,7 @@ Commands:
 ## Roadmap
 
 * [x] Initial version
+* [x] Img support
 * [ ] Testing support
 * [ ] Optional SASS and PostCSS
 * [ ] Optional Heroku and Now integration
