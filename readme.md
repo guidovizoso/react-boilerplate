@@ -26,8 +26,8 @@ Commands:
 
 * [x] Initial version
 * [x] Img support
-* [ ] Testing support
 * [ ] Optional SASS and PostCSS
 * [ ] Optional Heroku and Now integration
+* [ ] Testing support
 
 :speech_balloon: Made by **Guido Vizoso** <[https://www.linkedin.com/in/guidovizoso/](https://www.linkedin.com/in/guidovizoso/)>
