@@ -1,9 +1,7 @@
 import React from 'react';
-import { render } from 'react-dom';
+import {
+  render,
+} from 'react-dom';
+import App from './App';
 
-const title = 'Minimal React setup';
-
-render(
-  <div>{title}</div>,
-  document.getElementById('app')
-);
+render(<App />, document.getElementById('app'));
