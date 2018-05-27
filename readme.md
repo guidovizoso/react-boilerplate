@@ -32,7 +32,7 @@ Commands:
 
 * [x] Initial version
 * [x] Img support
-* [ ] Optional SASS and PostCSS
+* [x] Optional SASS and PostCSS
 * [ ] Optional Heroku and Now integration
 * [ ] Testing support
 
