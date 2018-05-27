@@ -12,18 +12,18 @@ module.exports = {
         use: ['babel-loader'],
       },
       {
-        test: /\.(css|scss)$/,
+        test: /\.css$/,
         use: [
           'style-loader',
           'css-loader',
-          'sass-loader',
+          'postcss-loader',
         ],
       },
       {
         test: /\.(png|jpg|gif)$/,
         use: [{
           loader: 'file-loader',
-        }]
+        }],
       },
     ],
   },
