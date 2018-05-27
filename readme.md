@@ -14,6 +14,12 @@ Commands:
     npm run dev /* Runs webpack dev server and live reloading */
     npm run start /* Runs webpack in production mode with optimizations */
 
+## Variables
+
+* Default project > **master branch**
+* SASS project > **sass branch**
+* PostCSS project > **postcss branch**
+
 ## Content
 
 * Webpack
