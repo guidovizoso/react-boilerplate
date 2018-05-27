@@ -7,16 +7,16 @@
     justify-content: center;
     font-family: sans-serif;
     color: #333;
-}
 
-.pineapple{
-    width: 300px;
-}
+    .pineapple {
+        width: 300px;
+    }
 
-.credits{
-    position: absolute;
-    bottom: 0;
-    padding: 0 15px;
-    display: flex;
-    align-self: flex-end;
+    .credits {
+        position: absolute;
+        bottom: 0;
+        padding: 0 15px;
+        display: flex;
+        align-self: flex-end;
+    }
 }
