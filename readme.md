@@ -14,6 +14,24 @@ Commands:
     npm run dev /* Runs webpack dev server and live reloading */
     npm run start /* Runs webpack in production mode with optimizations */
 
+## Folder structure
+
+```
+├── src
+│   ├── index.js // Renders everything
+│   ├── App.jsx // Main component
+│   ├── App.css // Main component styles (one stylesheet per component)
+│   └── assets // Images and stuff goes here
+├── dist // Compiled files goes here
+├── package.json
+├── .babelrc
+├── .eslintrc
+├── webpack.common.js
+├── webpack.dev.js
+├── webpack.prod.js
+└── .gitignore
+```
+
 ## Variables
 
 * Default project > **master branch**
